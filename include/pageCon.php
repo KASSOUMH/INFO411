@@ -1,4 +1,5 @@
 <?php
+require('../connect.php');
     include ("connexion.php");
         echo "<h1>Bonjour</h1>";
         echo "<div class='banner'>
