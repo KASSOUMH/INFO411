@@ -19,3 +19,8 @@ h1 {
     align-items: center;
     gap: 20px;
 }
+
+.banner img{
+    width: 150px;
+    left: auto;
+}
