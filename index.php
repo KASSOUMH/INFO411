@@ -1,6 +1,14 @@
-<style>
-    <?php include `./css/index.css` ?>
-</style>
-<?php
-    echo "<h1> bonjour </h1>"
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Example</title>
+    <link rel="stylesheet" href="./css/index.css"> <!-- Correct way to include CSS -->
+</head>
+<body>
+    <?php
+        echo "<h1>Bonjour</h1>";
+    ?>
+</body>
+</html>
