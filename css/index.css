@@ -29,6 +29,13 @@ h1 {
     cursor: pointer;
 }
 
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .formulaire div {
     background-color: white;
     padding: 30px;
@@ -40,7 +47,6 @@ h1 {
     justify-content: center;
     width: 300px;
     text-align: center;
-    right: 50%;
 }
 
 form {
