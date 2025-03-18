@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $mdp = mysqli_real_escape_string($CONNEXION, $_POST['mdp']);
 
   // Requête pour vérifier si le nom et le mot de passe existent dans la base de données
-  $query = "SELECT * FROM utilisateurs WHERE nom = '$nom' AND mot_de_passe = '$mdp'";
+  $query = "SELECT * FROM users WHERE nom = '$nom' AND mot_de_passe = '$mdp'";
   $result = mysqli_query($CONNEXION, $query);
 
   // Vérification de l'existence de l'utilisateur
