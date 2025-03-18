@@ -11,7 +11,7 @@
     <?php
         echo "<h1>Bonjour</h1>";
         echo "<div class='banner'>
-        <img src='../image/logo.jpeg' alt='Logo'>
+        <p> Welcome to the database </p>
         </div>";
     ?>
 </body>
