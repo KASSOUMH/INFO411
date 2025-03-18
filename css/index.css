@@ -17,7 +17,7 @@ h1 {
 }
 
 .banner {
-    background: linear-gradient(135deg, rgba(139, 172, 228, 0.5), rgba(79, 9, 153, 0.5));
+    background: linear-gradient(135deg, rgba(224, 196, 11, 0.667), rgba(255, 255, 255, 0.5));
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
@@ -26,6 +26,8 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 80%; 
+    margin: 20px auto; 
 }
 
 .banner p {
@@ -43,7 +45,7 @@ h1 {
 }
 
 .formulaire{
-    background-color: white;
+    background: linear-gradient(135deg, rgba(224, 196, 11, 0.667), rgba(255, 255, 255, 0.5));
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -53,8 +55,12 @@ h1 {
     width: 300px;
     text-align: center;
     margin-left: 39%;
-    margin-top: 6%;
+    margin-top: 8%;
     margin-bottom: 6%;
+}
+
+.formulaire button:hover{
+    cursor: pointer;
 }
 
 h2 {
