@@ -10,8 +10,8 @@
     
     <?php
         echo "<h1>Bonjour</h1>";
-        echo "<div class="banner">
-        <img src="./image/logo.svg" alt="Logo">
+        echo "<div class=`banner`>
+        <img src=`./image/logo.svg` alt=`Logo`>
         </div>";
     ?>
 </body>
