@@ -11,7 +11,7 @@
     <?php
         echo "<h1>Bonjour</h1>";
         echo "<div class='banner'>
-        <img src='C:\xampp\htdocs\index\INFO411\image' alt='Logo'>
+        <img src='/image/logo.jpeg' alt='Logo'>
         </div>";
     ?>
 </body>
