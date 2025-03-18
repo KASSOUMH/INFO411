@@ -1,10 +1,10 @@
 body {
     background-color: #042763;
+    color: aliceblue;
 }
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
 }
 
 .banner {
