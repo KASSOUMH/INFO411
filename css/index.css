@@ -24,3 +24,6 @@ h1 {
     width: 50px;
     right: 100%;
 }
+.banner img:hover{
+    cursor: pointer;
+}
