@@ -12,8 +12,9 @@
         echo "<h1>Bonjour</h1>";
         echo "<div class='banner'>
         <p> Welcome to the database </p>
+        <img src='image/panier.png' alt='Image'>
         </div>";
-        echo "<img src='image/panier.png' alt='Image'>";
+        echo ;
     ?>
 </body>
 </html>
