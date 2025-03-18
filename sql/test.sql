@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 18 mars 2025 à 14:53
+-- Généré le : mar. 18 mars 2025 à 15:13
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.0.30
 
@@ -24,20 +24,41 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `test`
+-- Structure de la table `users`
 --
 
-CREATE TABLE `test` (
-  `id` int(100) NOT NULL
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `mdp` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Déchargement des données de la table `test`
+-- Déchargement des données de la table `users`
 --
 
-INSERT INTO `test` (`id`) VALUES
-(50),
-(150);
+INSERT INTO `users` (`id`, `name`, `mdp`) VALUES
+(1, 'test', 'test');
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT pour les tables déchargées
+--
+
+--
+-- AUTO_INCREMENT pour la table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
