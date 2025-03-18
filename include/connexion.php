@@ -1,5 +1,5 @@
 <?php
-    require('../connect.php');
+    include('./connect.php');
 	
 	$CONNEXION = mysqli_connect (SERVEUR_BD, LOGIN_BD, PASS_BD);
 	//Connexion au serveur de bases de données

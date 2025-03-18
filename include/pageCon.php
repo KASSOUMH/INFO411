@@ -1,6 +1,68 @@
 <?php
-require('../connect.php');
-    include ("connexion.php");
+// Inclure le fichier de configuration de connexion
+
+include("connexion.php");
+
+echo "<h1>Bonjour</h1>";
+echo "<div class='banner'>
+<p> Welcome to the database </p>
+</div>";
+echo "<div class='container'>
+<form method='POST' action='pageCon.php'>
+  <label for='nom'><b>Nom :</b></label>
+  <input name='nom' type='text' placeholder='Entrer votre nom' id='nom' required> <br><br>
+
+  <label for='mdp'><b>Mot de passe :</b></label>
+  <input name='mdp' type='password' placeholder='Entrer votre mot de passe' id='mdp' required> <br></div>";
+
+echo "<button type='submit' id='submit-btn'>Connexion</button> <br><br>";
+
+?>
+
+<?php
+// Si le formulaire est soumis
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  // Récupérer les valeurs du formulaire
+  $nom = mysqli_real_escape_string($CONNEXION, $_POST['nom']);
+  $mdp = mysqli_real_escape_string($CONNEXION, $_POST['mdp']);
+
+  // Requête pour vérifier si le nom et le mot de passe existent dans la base de données
+  $query = "SELECT * FROM utilisateurs WHERE nom = '$nom' AND mot_de_passe = '$mdp'";
+  $result = mysqli_query($CONNEXION, $query);
+
+  // Vérification de l'existence de l'utilisateur
+  if (mysqli_num_rows($result) > 0) {
+      echo "<h2>Connexion réussie!</h2>";
+  } else {
+      echo "<h2>Identifiants incorrects. Essayez encore.</h2>";
+  }
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+/* 
         echo "<h1>Bonjour</h1>";
         echo "<div class='banner'>
         <p> Welcome to the database </p>
@@ -14,4 +76,5 @@ require('../connect.php');
       <input name='mdp' type='password' placeholder='Entrer votre mot de passe' id='mdp' required> <br> </div>";
 
       echo "<button type='submit' id='submit-btn'>Connexion</button> <br><br>"
+      */
     ?>
