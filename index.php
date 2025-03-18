@@ -8,6 +8,6 @@
 </head>
 <body>
     
-    <?php include ("pageCon.php");?>
+    <?php include ("/include/pageCon.php");?>
 </body>
 </html>
