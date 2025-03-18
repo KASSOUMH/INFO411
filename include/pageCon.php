@@ -7,15 +7,20 @@ echo "<h1>Bonjour</h1>";
 echo "<div class='banner'>
 <p> Welcome to the database </p>
 </div>";
-echo "<div class='container'>
+
+
+echo "<div class='formulaire'>
 <form method='POST' action='index.php'>
   <label for='nom'><b>Nom :</b></label>
   <input name='nom' type='text' placeholder='Entrer votre nom' id='nom' required> <br><br>
 
   <label for='mdp'><b>Mot de passe :</b></label>
-  <input name='mdp' type='password' placeholder='Entrer votre mot de passe' id='mdp' required> <br></div>";
+  <input name='mdp' type='password' placeholder='Entrer votre mot de passe' id='mdp' required> <br><br>
 
-echo "<button type='submit' id='submit-btn'>Connexion</button> <br><br>";
+  <button type='submit' id='submit-btn'>Connexion</button>
+</form>
+</div>";
+
 
 ?>
 
