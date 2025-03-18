@@ -13,6 +13,7 @@
         echo "<div class='banner'>
         <p> Welcome to the database </p>
         </div>";
+        echo "<img src='image/panier.png' alt='Image'>";
     ?>
 </body>
 </html>
