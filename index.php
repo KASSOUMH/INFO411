@@ -14,7 +14,6 @@
         <p> Welcome to the database </p>
         <img src='image/panier.png' alt='Image'>
         </div>";
-        echo ;
     ?>
 </body>
 </html>
