@@ -1,2 +1,6 @@
+<style>
+    <?php include `./css/index.css` ?>
+</style>
 <?php
-echo "bonjour";
+    echo "<h1> bonjour </h1>"
+?>
