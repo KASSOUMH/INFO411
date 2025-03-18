@@ -1,6 +1,14 @@
 body {
-    background-color: #042763;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../image/logo.jpeg'); 
+    background-size: fill;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
 }
+
 
 h1 {
     text-align: center;
@@ -9,16 +17,21 @@ h1 {
 }
 
 .banner {
-    background: linear-gradient(135deg, #8bace4,#4f0999);
-    color: white;
+    background: linear-gradient(135deg, rgba(139, 172, 228, 0.5), rgba(79, 9, 153, 0.5));
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
     border-radius: 5px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+}
+
+.banner p {
+    background: none;
+    opacity: 1; 
+    color: aliceblue;
 }
 
 .banner img{
@@ -41,6 +54,7 @@ h1 {
     text-align: center;
     margin-left: 39%;
     margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 h2 {
