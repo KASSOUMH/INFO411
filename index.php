@@ -8,11 +8,6 @@
 </head>
 <body>
     
-    <?php
-        echo "<h1>Bonjour</h1>";
-        echo "<div class='banner'>
-        <p> Welcome to the database </p>
-        </div>";
-    ?>
+    <?php include ("pageCon.php");?>
 </body>
 </html>
