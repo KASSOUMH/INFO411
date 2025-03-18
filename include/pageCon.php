@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   // Vérification de l'existence de l'utilisateur
   if (mysqli_num_rows($result) > 0) {
-      header("Location: client.php");
+      header("Location: include/client.php");
   } else {
       echo "<h2>Identifiants incorrects. Essayez encore.</h2>";
   }
