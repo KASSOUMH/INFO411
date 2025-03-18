@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="./css/index.css"> <!-- Correct way to include CSS -->
 </head>
 <body>
+    
     <?php
         echo "<h1>Bonjour</h1>";
+        echo "<div class="banner">
+        <img src="./image/logo.svg" alt="Logo">
+        </div>";
     ?>
 </body>
 </html>
