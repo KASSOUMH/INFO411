@@ -10,4 +10,6 @@
       
       <label for='mdp'><b>Mot de passe :</b></label>
       <input name='mdp' type='password' placeholder='Entrer votre mot de passe' id='mdp' required> <br> </div>"
+
+      echo "<button type='submit' id='submit-btn'>Connexion</button> <br><br>"
     ?>
